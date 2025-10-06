@@ -1,0 +1,119 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 10},
+        {"category": "communication", "rating": 10},
+        {"category": "respect_house_rules", "rating": 10}
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 8122,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Lovely stay, great location but the WiFi was slow.",
+      "reviewCategory": [{"category": "wifi", "rating": 6}, {"category": "location", "rating": 10}],
+      "submittedAt": "2021-05-11 14:22:00",
+      "guestName": "Maria J",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 9101,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Spacious and clean. Check-in was seamless.",
+      "reviewCategory": [{"category": "cleanliness", "rating": 9}, {"category": "checkin", "rating": 8}],
+      "submittedAt": "2022-01-02 09:11:10",
+      "guestName": "T. K.",
+      "listingName": "Studio 7B - Shoreditch Loft"
+    },
+    {
+      "id": 9123,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4,
+      "publicReview": "Noise from the street made it hard to sleep. Not ideal for light sleepers.",
+      "reviewCategory": [{"category":"noise","rating":3},{"category":"comfort","rating":5}],
+      "submittedAt": "2022-06-15 23:02:45",
+      "guestName": "A. Park",
+      "listingName": "Studio 7B - Shoreditch Loft"
+    },
+    {
+      "id": 10001,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Exceptional host, highly recommended.",
+      "reviewCategory": [{"category":"communication","rating":10},{"category":"value","rating":10}],
+      "submittedAt": "2023-03-12 08:00:00",
+      "guestName": "Liam N",
+      "listingName": "Seaview Apartment - 10 Bay St"
+    },
+    {
+      "id": 10002,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Nice apartment but a bit far from transport.",
+      "reviewCategory": [{"category":"location","rating":5},{"category":"cleanliness","rating":8}],
+      "submittedAt": "2023-04-20 10:10:10",
+      "guestName": "H. O.",
+      "listingName": "Seaview Apartment - 10 Bay St"
+    },
+    {
+      "id": 11011,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Facilities are average; towels were worn.",
+      "reviewCategory": [{"category":"facilities","rating":5},{"category":"cleanliness","rating":6}],
+      "submittedAt": "2023-09-01 12:12:12",
+      "guestName": "N. Gomez",
+      "listingName": "City Central Flat - 45 Market Road"
+    },
+    {
+      "id": 11012,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 3,
+      "publicReview": "Water pressure very low. Host responded slowly.",
+      "reviewCategory": [{"category":"utilities","rating":2},{"category":"communication","rating":3}],
+      "submittedAt": "2024-02-14 16:16:16",
+      "guestName": "R. Patel",
+      "listingName": "City Central Flat - 45 Market Road"
+    },
+    {
+      "id": 12021,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Guest left the place tidy. Welcome back anytime.",
+      "reviewCategory": [{"category":"cleanliness","rating":10},{"category":"respect_house_rules","rating":10}],
+      "submittedAt": "2024-06-05 19:00:00",
+      "guestName": "Host Note",
+      "listingName": "Seaview Apartment - 10 Bay St"
+    },
+    {
+      "id": 13031,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "OK stay; small kitchen space.",
+      "reviewCategory": [{"category":"space","rating":4},{"category":"value","rating":6}],
+      "submittedAt": "2024-08-01 09:09:09",
+      "guestName": "E. K.",
+      "listingName": "Budget Room - 88 Back Alley"
+    }
+  ]
+}
