@@ -13,7 +13,6 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-// ✅ API route: GET /api/reviews/hostaway
 app.get("/api/reviews/hostaway", async (req, res) => {
   try {
     const mockFilePath = path.join(__dirname, "mockReviews.json");
@@ -41,14 +40,13 @@ app.get("/api/reviews/hostaway", async (req, res) => {
 
     res.json({ status: "success", data: normalized });
   } catch (err) {
-    console.error("❌ Error loading reviews:", err);
+    console.error("Error loading reviews:", err);
     res
       .status(500)
       .json({ status: "error", message: "Failed to load reviews" });
   }
 });
 
-// Mock property data
 const properties = [
   { id: 85974, name: "Cozy Apartment in Lekki", description: "A stylish modern apartment with ocean views." },
   { id: 85975, name: "Ikeja Executive Suite", description: "Close to the airport, quiet and comfortable." },
@@ -64,7 +62,6 @@ const propertyReviews = {
   ],
 };
 
-// GET /properties/:id
 app.get("/properties/:id", (req, res) => {
   const propertyId = parseInt(req.params.id);
   const property = properties.find((p) => p.id === propertyId);
@@ -76,7 +73,6 @@ app.get("/properties/:id", (req, res) => {
   res.json(property);
 });
 
-// GET /properties/:id/reviews
 app.get("/properties/:id/reviews", (req, res) => {
   const propertyId = parseInt(req.params.id);
   const approved = req.query.approved === "true";
@@ -88,5 +84,5 @@ app.get("/properties/:id/reviews", (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
-  console.log(`✅ Server running on http://localhost:${PORT}`)
+  console.log(`Server running on http://localhost:${PORT}`)
 );
